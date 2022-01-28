@@ -230,7 +230,7 @@ function divideArray(arr,n){
     Resumiendo, el primer subarray tendra n posiciones, las indicadas con el parámetro de entrada (5)
      y el segundo, para este caso concreto, las sobrantes, 4
 */
-     for(let i=0;i<Math.ceil(arr.length/n);i++){
+     for(let i=0;i<n;i++){
         if(long>=n){
             for(let j=0;j<n;j++){
                 arr2[i]= Array(n);    
@@ -267,7 +267,31 @@ let counter = 0; //introduzco una variable counter que va a leer la posición de
 }
 
 
+
+/*Otra Solución*/
+
+const chopArray = (originalArray, chopSize) => {
+    let choppedArray = []
+    let chop = [originalArray[0]]
+    for (let i = 1; i < originalArray.length; i++) {
+        chop[chop.length] = originalArray[i]
+        if (chop.length % chopSize === 0 || i === originalArray.length - 1) {
+            choppedArray[choppedArray.length] = chop
+            chop = []
+        }
+    }
+    return choppedArray;
+}
+
+
+
+
 const nums = [1, 2, 3, 4, 5, 6, 7, 8]
+
+document.write(chopArray(nums,3));
+document.write('<br>');
+
+
 document.write(divideArray(nums,3));
 document.write('<br>');
 
