@@ -1,0 +1,31 @@
+.card_container{
+    width: max-content;
+    margin: 2rem 2rem;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card_image{
+
+    width: 250px;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card_body{
+    padding: 1rem;
+    background-color: rgb(116, 116, 116);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.card_body-tittle{
+    padding: 0.5rem 0rem;
+}
+
+
+

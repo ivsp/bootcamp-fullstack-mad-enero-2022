@@ -1,0 +1,15 @@
+.container_button{
+    display: flex;
+    justify-content: center;
+}
+
+
+.button{
+    margin-top: 0.8rem;
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+    border-radius: 5px;
+    background-color: #c4c4c4;
+    border: solid 1px;
+    color: #000000;
+}
