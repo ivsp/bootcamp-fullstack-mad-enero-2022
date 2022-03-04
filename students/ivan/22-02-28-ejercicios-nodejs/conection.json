@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "country": "Spain",
+  "countryCode": "ES",
+  "region": "AN",
+  "regionName": "Andalusia",
+  "city": "Seville",
+  "zip": "41006",
+  "lat": 37.3831,
+  "lon": -5.9707,
+  "timezone": "Europe/Madrid",
+  "isp": "UNI2-NET- Orange Spain Network",
+  "org": "",
+  "as": "AS12479 Orange Espagne SA",
+  "query": "90.69.231.241"
+}
